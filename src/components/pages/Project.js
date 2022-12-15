@@ -15,7 +15,6 @@ function Project() {
     const { id } = useParams()
     
     const [project, setProject] = useState([])
-    const [services, setServices] = useState([])
     const [showProjectForm, setShowProjectForm] = useState(false)
     const [showServiceForm, setShowServiceForm] = useState(false)
     const [message, setMessage] = useState()
@@ -84,18 +83,8 @@ function Project() {
 
         project.cost = newCost
 
-        fetch(`http://localhost:5000/projects/${project.id}`, {
-            method: 'PATCH',
-            headers: {
-                'Content-type' : 'application/json',
-            },
-            body: JSON.stringify(project)
-        })
-            .then(response => response.json())
-            .then(data => setServices(data.services))
-            .catch(error => console.log(error))
 
-            toggleServiceForm(false)
+        toggleServiceForm(false)
     }
     
 
@@ -123,7 +112,6 @@ function Project() {
             .then(response => response.json())
             .then(() => {
                 setProject(projectUpdated)
-                setServices(servicesUpdated)
                 setMessage('Serviço removido com sucesso!')
                 setType('success')
             })
@@ -192,9 +180,6 @@ function Project() {
                         }
                     </div>
 
-                    {project.services.length}
-                    {services.length}
-                    
                     <div className={styles.service_box}>
                         {project.services.length > 0 && 
                             project.services.map(service => (
