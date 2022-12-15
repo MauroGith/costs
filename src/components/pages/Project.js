@@ -144,7 +144,7 @@ function Project() {
                                 <span>Categoria:</span> {project.category.name}
                             </p>
                             <p>
-                                <span>Orçamento do projeto:</span> R${project.budget}
+                                <span>Orçamento do projeto :</span> R${project.budget}
                             </p>
                             <p>
                                 <span>Total utilizado:</span> R${project.cost}
