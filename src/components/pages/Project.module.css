@@ -1,0 +1,57 @@
+.edit_header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: max(30px, 1vw);
+    margin-bottom: max(30px, 1vw);
+}
+
+.edit_header h1 {
+    color: #ffbb33;
+    background-color: #222;
+    padding: max(15px, 1vw);
+    font-size: max(22px, 1.5vw);
+}
+
+.edit_header h2 {
+    color: #222;
+    font-size: max(22px, 1.5vw);
+}
+
+.edit_header button {
+    padding: max(15px, 1vw);
+    font-size: max(15px, 1vw);
+    font-weight: bold;
+    border: 0;
+    background-color: #222;
+    cursor: pointer;
+    color: #fff;
+    transition: .7s;
+}
+
+.edit_header button:hover {
+    color: #ffbb33;
+}
+
+.project_info {
+    margin-bottom: max(20px, 1vw);
+    border-bottom: max(1px, .1vw) solid black;
+}
+
+.project_info p{
+    margin-bottom: max(10px, 1vw);
+    font-size: max(16px, 1.2vw);
+}
+
+.project_info span {
+    font-weight: bold;
+}
+
+.service_box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.feedback_text{
+    font-size: max(16px, 1.2vw);
+}

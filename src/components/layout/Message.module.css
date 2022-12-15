@@ -1,0 +1,20 @@
+.message {
+    max-width: max(250px, 50vw);
+    margin: 0 auto;
+    padding: max(15px, 1vw);
+    text-align: center;
+    border: 2px solid black;
+    border-radius: max(5px, .5vw);
+}
+
+.success {
+    color: green;
+    background-color: rgb(192, 243, 192);
+    border-color: rgb(147, 250, 147);
+}
+
+.error {
+    color: red;
+    background-color: rgb(247, 168, 168);
+    border-color: rgb(248, 127, 127);
+}

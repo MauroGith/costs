@@ -1,0 +1,10 @@
+.title_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.projects_box{
+    display: flex;
+    flex-wrap: wrap;
+}

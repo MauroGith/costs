@@ -1,0 +1,19 @@
+.newproject_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: max(450px, 30vw);
+    padding: max(20px, 2vw);
+    margin: 0 auto;
+}
+
+.newproject_container h1 {
+    font-size: max(26px, 1.5vw + 1px);
+    margin-bottom: max(10px, 1.5vw);
+}
+
+.newproject_container p {
+    font-size: max(16px, 1vw + 1px);
+    margin-bottom: max(10px, 1vw);
+    color: #7b7b7b;
+}

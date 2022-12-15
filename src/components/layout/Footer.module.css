@@ -1,0 +1,36 @@
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #222;
+    color: #fff;
+    padding: max(10px, 1vw);
+    text-align: center;
+}
+
+.footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.footer ul li {
+    font-size: max(30px, 1.5vw + 1px);
+    padding: max(8px, .5vw);
+    transition: .8s;
+}
+
+.footer ul li:hover {
+    color:#ffbb33;
+    cursor: pointer;
+}
+
+.footer p {
+    font-size: max(18px, 1vw + 1px);
+}
+
+.footer span {
+    color: #ffbb33;
+    font-weight: bold;
+}

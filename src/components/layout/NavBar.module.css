@@ -1,0 +1,33 @@
+.navbar {
+    background-color:  #222;
+    padding: max(10px, 1vw);
+}
+
+.navbar_content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logo {
+    width: max(50px, 5vw);
+    height: max(50px, 5vw);
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.list li a{
+    text-decoration: none;
+    color: white;
+    padding: max(8px, .8vw);
+    font-size: max(18px, 1.2vw + 1px);
+    transition: .8s;
+}
+
+.list li a:hover {
+    color: #ffbb33;
+}

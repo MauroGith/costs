@@ -1,0 +1,84 @@
+.project_card {
+    width: 25%;
+    padding: max(5px, .5vw);
+    margin: 8px 0;
+}
+
+.project_card .card_content {
+    padding: max(5px, .5vw);
+    background-color: #222;
+    color: white;
+    border-radius: max(5px, .4vw);
+    box-shadow: max(4px, .3vw) max(4px, .3vw) 4px rgba(0, 0, 0, 0.2);
+}
+
+.project_card h4 {
+    text-transform: uppercase;
+    padding: max(10px, .5vw);
+    font-size: max(15px, .5vw);
+    margin-bottom: max(10px, 1vw);
+}
+
+.project_card p {
+    padding: max(5px, .3vw);
+    margin-bottom: max(10px, .8vw);
+    font-size: max(16px, .7vw);
+    margin-left: max(2px, .1vw);
+    transition: .6s;
+}
+
+.actions p:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.project_card p a {
+    text-decoration: none;
+    color: white;
+}
+
+.project_card p span {
+    margin-right: max(2px, .1vw);
+    color: #ffbb33;
+}
+
+.project_card p button {
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+    color: white;
+    font-size: max(16px, .7vw);
+}
+
+.infra {
+    background-color: rgb(120, 245, 120);
+    color: green;
+}
+
+.desenvolvimento {
+    background-color: rgb(242, 131, 252);
+    color: purple;
+}
+
+.planejamento {
+    background-color: rgb(252, 142, 68);
+    color: #222;
+}
+
+.design {
+    background-color: rgb(143, 231, 247);
+    color: blue;
+}
+
+@media screen and (max-width: 980px){
+    .project_card {
+        width: 50%;
+        padding: max(5px, .5vw);
+    }
+}
+
+@media screen and (max-width: 500px){
+    .project_card {
+        width: 100%;
+        padding: max(5px, .5vw);
+    }
+}

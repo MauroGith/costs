@@ -1,0 +1,17 @@
+.btn {
+    text-decoration: none;
+    color: white;
+    background-color: #222;
+    padding: max(12px, 1vw);
+    margin-top: max(15px, 1vw);
+    margin-bottom: max(15px, 2vw);
+    border-radius: max(10px, 1vw);
+    border: max(3px, .2vw) groove #ffbb33;
+    font-size: max(16px, 1vw + 1px);
+    font-weight: bold;
+    transition: .8s;
+}
+
+.btn:hover {
+    color: #ffbb33;
+}
