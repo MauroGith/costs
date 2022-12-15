@@ -6,11 +6,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-To start a local server
 ### `npm start`
+To start a local server
 
-To run a local database
 ### `npm run backend`
+To run a local database
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
